@@ -205,6 +205,8 @@ HAL_StatusTypeDef HAL_DeInit(void)
   __HAL_RCC_AHB3_FORCE_RESET();
   __HAL_RCC_AHB3_RELEASE_RESET();
 
+  printf("This is a test for Github")
+
   /* De-Init the low level hardware */
   HAL_MspDeInit();
     
